@@ -25,6 +25,15 @@
 // =>
 
 
+//Git
+// git init # cretes new repository
+// git remote add origin repo-path # Binds our local
+// git add <filename> # add changes to be ttracked
+// git commit -m "<some message>" # add new changes to the repo
+// git diff # shows you the difference the in change and the last tracked point
+// git push #transfers the local changes to the remote repo
+
+
 //Begin
 //accept a name
 var name = "John Doe";
@@ -32,6 +41,7 @@ var name = "John Doe";
 var greeting = "Hello " + name;
 // print out greeting
 console.log(greeting);
+console.log("End of Class");
 // end
 
 
