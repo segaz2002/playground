@@ -4,18 +4,19 @@
 
 //Datatypes
 
-// String example, "Movefdfgdgfdfgdffgdf"
+// String example, "Movefdfgdgfdfgdffgdf"  or 'somestring'
 // Numbers e.g float or integer e.g 12.02, 12
 // Arrays e.g list of product names ["product1", "product2"],
 // Object e.g {"name": "some name","department": "some", "type", id: 12345}
 
 //Arithmetc operators
-// +, -, %, /, >=, <=, ==
+// +, -, %, /, >=, <=, ==, ===
 
 //Logical operators
-// and &&
-// or ||
-// not ! 
+// and && -> all candidates must be true
+// or || -> at least one candidate must be true
+// not ! -> e.g
+//  -> if (!check_login()) do: xcdgsdfdgdf
 
 
 // why do we need git (github)
@@ -25,7 +26,7 @@
 // =>
 
 
-//Git
+//Git | SVN
 // git init # cretes new repository
 // git remote add origin repo-path # Binds our local
 // git add <filename> # add changes to be ttracked
@@ -36,12 +37,12 @@
 
 //Begin
 //accept a name
-var name = "John Doe";
 // prepare greeting
-var greeting = "Hello " + name;
 // print out greeting
+// end
+var name = "John Doe";
+var greeting = "Hello " + name;
 console.log(greeting);
 console.log("End of Class");
-// end
 
 
