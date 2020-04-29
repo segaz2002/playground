@@ -47,11 +47,13 @@ identificationNumber({ id: 1212 });
 //Git | SVN
 // git init # cretes new repository
 // git remote add origin repo-path # Binds our local
-// git add <filename> # add changes to be ttracked
+// git status
+// git add < filename > # add changes to be ttracked
 // git commit -m "<some message>" # add new changes to the repo
 // git diff # shows you the difference the in change and the last tracked point
 // git push #transfers the local changes to the remote repo
-// git clone <repository url>
+// git clone <repository url> # Clones a repository to current working direcory on local
+// git pull # will fetch the remote repository to the local
 
 
 
